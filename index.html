@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSOGOL ABIUD</title>
+    <script src="https://kit.fontawesome.com/71c92c08a5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="abiud.css">
+    <link rel="icon" href="Assets/icons/favicon.ico">
+</head>
+<body>
+    <div class="section1" id="home">
+        <nav class="border-bottom" id="navbar">
+            <div></div>
+            <div class="navigations">
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT ME</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="essay.html">PHOTOGRAPHIC ESSAY</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+        </nav>
+        <div class="intro">
+            <div class="intro-image hide-intro-image">
+                <img src="Assets/rep.png" alt="">
+            </div>
+            <div>
+                <p class="intro-text">OSOGOL ABIUD <span>ANDROID DEVELOPER</span></p>
+            </div>
+            <div>
+                <a class="btn" href="https://drive.google.com/file/d/1wuw0p8hpf6faarCAM0nPDZpdp0ZtJRH6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume English</a>
+            </div>
+		<div>
+                <a class="btn" href="https://drive.google.com/file/d/1LXZY1uVppwUb8-f3iOcc5oVt0VEOQ94j/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume Sw</a>
+            </div>
+	<div>
+                <a class="btn" href="https://drive.google.com/file/d/1qehpfsGndAzoQV-so0nWo5YfBb0MzPAY/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume native</a>
+            </div>
+        </div>
+    </div>
+    <div class="section2" id="about">
+        <div class="about-text">
+            <p class="header-text">About Me</p>
+            <p>
+                I'm Osogol <i class="fa-regular fa-face-smile"></i>,<br>Professionally, I am a web developer and a data enthusiast who combines curiosity, creativity, and analytical thinking to tackle big picture challenges. <br>
+                I am passionate about technology and machinery and I actively seek ways to contribute in shaping the digital future. <br>
+            </p>
+            <div class="title">
+                <p class="title-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="title-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="content active-tab" id="skills">
+                <ul>
+                    <li><span>HTML, CSS, JavaScript</span><br>Creating and styling interactive web pages</li>
+                    <li><span>Responsive Design</span><br>Designing websites to adapt to various screen sizes and devices</li>
+                    <li><span>Android Apps</span><br>Managing android and linking with backend, like Firebase</li>
+                    <li><span>Layout Design Tools (Figma, Adobe XD, Canva)</span><br>Creating wireframes, prototypes and UI/UX designs</li>
+                    <li><span>Python projects and Machine learning</span></li>
+                </ul>
+            </div>
+            <div class="content" id="education">
+                <ul>
+                    <li><span>2024</span><br> Android app development,<br>Dekut</li>
+                    <li><span>2024</span><br> Python<br>Visiola Foundation</li>
+                    <li><span>2023</span><br> Bachelor of Business and Information Technology<br>Dekut University, Nyeri</li>
+                </ul>
+            </div>
+        </div>
+        <div class="about-image">
+            <img src="Assets/about_me.jpg" alt="profile pic">
+        </div>
+    </div>
+    <div class="section3" id="projects">
+        <p class="header-text center">Projects</p>
+        <div class="projects">
+            <div class="project">
+                <div class="project-img">
+                    <img src="Assets/uniwell.jpeg" alt="">
+                </div>
+                <p class="small-text">Uniwell Android app for student stress</p>
+            </div>
+            <div class="project">
+                <div class="project-img">
+                    <img src="Assets/dekut2.jpeg" alt="">
+                </div>
+                <p class="small-text">Dekut Equipment Maintenance System</p>
+            </div>
+        </div>
+    </div>
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading"> <span> my </span> portfolio </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Assets/my story.png" alt="">
+                <h3>Autobiography</h3>
+                <div class="icons">
+                    <a href="#"onclick="openDocument('https://docs.google.com/document/d/1a_S7VxWeUC9NdA_JTE9mCwPFnY60_mvf/edit?usp=sharing&ouid=112252375400327621065&rtpof=true&sd=true')">Read</a>
+                </div>
+            </div> 
+            <div class="box">
+                <img src="Assets/autobiography.jpg" alt="">
+                <h3>Autobiography ppt</h3>
+                <div class="icons">
+                    <a onclick="openDocument('https://docs.google.com/presentation/d/1ehpqdkYjjsTmXKLX-FLNQN2qSuqU2J6N/edit?usp=sharing&ouid=112252375400327621065&rtpof=true&sd=true')">Read</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Assets/innovation.jpg" alt="">
+                <h3>Innovation PPt</h3>
+                <div class="icons">
+                    <a onclick="openDocument('https://docs.google.com/presentation/d/1RhQ3lf8qg7N6uPbXlBi_WOJE_8hlDolb/edit#slide=id.p1')">Read</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Assets/culture.jpeg" alt="">
+                <h3>African Culture</h3>
+                <div class="icons">
+                    <a onclick="openDocument('https://docs.google.com/presentation/d/1ROJ2qC6ZBvEp2M5BFeT2Ev2T6JRQYKny/edit#slide=id.p1')">Read</a>
+                </div>
+            </div>
+
+           <div class="box">
+	
+                <h3>African Culture Video</h3>
+                <a href="https://drive.google.com/file/d/1SSVqp4HiKIgsEVSl3Oys4mlJDd4QydAF/view?usp=sharing" target="_blank" style="color: inherit; text-decoration: none;">
+<img src="Assets/african.jpg" alt="African Culture Video" style="display: block; margin: 0 auto;">
+                
+                </a>
+             
+           </div>
+
+
+
+          <div class="box">
+               <a href="https://drive.google.com/file/d/1SU_ymU9kDGQxjjCjXtydwLa4GDlVygf9/view?usp=sharing" target="_blank">
+               <img src="Assets/inno.jpeg" alt="Innovation Video" style="display: block; margin: 0 auto;">
+    	       </a>
+               <h3>Innovation Video</h3>
+	</div>
+
+         <div class="box">
+	
+	    <h3>Problems facing Africa video</h3>	
+   	   
+            <a href="https://drive.google.com/file/d/1S4Bsdy7B6DMKF_nQyOiCn82DbT9m6715/view?usp=sharing" target="_blank" style="color: inherit; text-decoration: none;">
+	      <img src="Assets/water-scarcity-1.jpg" alt="Problems facing Africa video" style="display: block; margin: 0 auto;">
+	   </a>
+              
+          </div>	 
+ </div>
+      
+    </section>
+    <div class="section4" id="contact">
+        <p class="header-text center">Contact me</p>
+        <div class="contact-form">
+            <form id="contact-form">
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="EMAIL" required>
+                </div>
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" id="subject" placeholder="SUBJECT" required>
+                </div>
+                <div>
+                    <label for="message"></label>
+                    <textarea name="message" id="message" rows="6" placeholder="MESSAGE" required></textarea>
+                </div>
+                <button class="btn form-btn" type="submit">Send message</button>
+            </form>
+        </div>
+        <div class="footer">
+            <div class="icons">
+                <a href="https://www.facebook.com/AbiudOkiring" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/@trydaratta" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/glowwarm_1293" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:osogolabiud769@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div>
+                <label for="phone">Phone: +254793476787</label>
+            </div>
+        </div>
+    </div>
+    <script>
+        const tabs = document.querySelectorAll('.title-links');
+        const contents = document.querySelectorAll('.content');
+
+        function opentab(tabName) {
+            tabs.forEach(tab => tab.classList.remove('active-link'));
+            contents.forEach(content => content.classList.remove('active-tab'));
+
+            document.querySelector(`[onclick="opentab('${tabName}')"]`).classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        function openDocument(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+ <script>
+        const form = document.getElementById('contact-form');
+
+        form.addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const formData = new FormData(form);
+
+            const response = await fetch('https://formspree.io/f/mjkbwnlq', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+
+            if (response.ok) {
+                alert('Thank you for your message! It has been sent successfully.');
+                form.reset();
+            } else {
+                alert('Oops! There was a problem sending your message. Please try again.');
+            }
+        });
+    </script>
+</body>
+</html>
